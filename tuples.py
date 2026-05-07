@@ -37,6 +37,11 @@
 tup7=("cat","dog","rabbit","elephant","cat")
 for i in range(0,len(tup7)):
     if tup7[i]=="elephant":
-        print("the index is: "+ str(i))
+        print("the index is: ",i)
 
 # count the occurances of an element(cat) in a tuple   
+count=0
+for i in range(0,len(tup7)):
+    if(tup7[i]=="cat"):
+        count=count+1
+print("number of times cat found in the tuple: ", count) 
