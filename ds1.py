@@ -28,5 +28,16 @@
 # print(smallest,largest)
 
 # another method to find the largest element in the list
+# same method goes for smallest element just change the condition to l4[i]<l4[j] 
+l4=[1,4,8]
+# find larges element
+# print(max(l4))
 
+maximum=0
+for i in range(0,len(l4)):
+    for j in range(0,len(l4)):
+        if(l4[i]>l4[j]):
+            maximum=l4[i]
+            
+print("max value: ",maximum) 
 
