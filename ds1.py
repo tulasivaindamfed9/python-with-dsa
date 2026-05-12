@@ -40,4 +40,3 @@ for i in range(0,len(l4)):
             maximum=l4[i]
             
 print("max value: ",maximum) 
-

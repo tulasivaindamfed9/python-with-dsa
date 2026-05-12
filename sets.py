@@ -40,6 +40,7 @@ def df4pair(nums):
     pairs=[]
     for i in range(0,len(nums)):
         for j in range(i+1,len(nums)):
+            # abs means absolute value. it returns the positive value of the difference between two numbers
             if abs(nums[i]-nums[j]) == 4:
                 pairs.append((nums[i],nums[j]))
     
